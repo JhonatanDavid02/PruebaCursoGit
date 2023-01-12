@@ -1,8 +1,43 @@
 .Marco{
-    border-radius: 50px;
-    background-color: blue;
-    height: auto;
-    width: auto;
-    align-items: center;
-    align-content: center;
+ width: 500px;
+ height: 500px;
+ border: 1px;
+ margin: 0 auto;
+ display: flex;
+ background-color:bisque ;
+ flex-direction: row;
+ padding: 40px;
+ flex-wrap: wrap;
+ 
+}
+
+.hija1{
+    background-color: brown;
+}
+
+.hija2{
+    background-color: rgb(23, 183, 189);
+}
+
+.hija3{
+    background-color: rgb(155, 41, 193);
+}
+
+.hija4{
+    background-color: rgb(18, 167, 97);
+}
+
+.hija5{
+    background-color: rgb(147, 147, 32);
+}
+
+.hija6{
+    background-color: rgb(144, 49, 20);
+}
+.hija7{
+    background-color: rgb(177, 39, 161);
+}
+
+.hija8{
+    background-color: rgb(220, 217, 217);
 }
