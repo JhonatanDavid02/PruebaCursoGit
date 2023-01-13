@@ -1,43 +1,61 @@
 .Marco{
- width: 500px;
- height: 500px;
+ width: 1900px;
+ height: 54px;
  border: 1px;
  margin: 0 auto;
  display: flex;
  background-color:bisque ;
- flex-direction: row;
- padding: 40px;
+ flex-direction:row;
  flex-wrap: wrap;
- 
+ justify-content:space-around;
+}
+.menuheader{
+    display:inline-block;
+    
+}
+
+.buscador{
+    background-color:rgb(128, 209, 231);
+    display: flex;
+    flex-direction: row;
+}
+.corazon{
+    align-self:start;
+}
+.pruebas{
+    width: 600px;
+    height: 500px;
+    border: 1px;
+    margin: 0 auto;
+    display: flex;
+    background-color: cadetblue;
+    flex-direction:column;
+    justify-content:start;
+    align-items:stretch;
+    margin-top: 100px;
+    
+   
+
+    
 }
 
 .hija1{
-    background-color: brown;
+    background-color: rgb(177, 177, 25);
+   
 }
-
 .hija2{
-    background-color: rgb(23, 183, 189);
+    background-color: rgb(14, 68, 131);
+    
 }
-
 .hija3{
-    background-color: rgb(155, 41, 193);
+    background-color: rgb(59, 194, 66);
+   
 }
-
 .hija4{
-    background-color: rgb(18, 167, 97);
+    background-color: rgb(182, 106, 30);
+  
 }
-
 .hija5{
-    background-color: rgb(147, 147, 32);
-}
-
-.hija6{
-    background-color: rgb(144, 49, 20);
-}
-.hija7{
-    background-color: rgb(177, 39, 161);
-}
-
-.hija8{
-    background-color: rgb(220, 217, 217);
+    background-color: rgb(162, 33, 173);
+    
 }
