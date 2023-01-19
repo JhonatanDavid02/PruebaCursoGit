@@ -9,7 +9,37 @@
  flex-wrap: wrap;
  justify-content:space-around;
 }
-.menuheader{
+
+.buscador{
+    background-color: rgb(194, 52, 8);
+    width: 500px;
+    height: 500px;
+    border: 5px;
+    border-radius: 5px;
+    border-color: black;
+    color:black;
+    display: flex;
+    justify-content:start;
+    align-items: start; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Search{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 36px;
+    font-size: larger;
+}
+
+.colorbarra{
+    background-color:#f2f2f2;
+    width: 800px;
+    height: 30px;
+}
+
+
+/*.menuheader{
     display:inline-block;
     
 }
@@ -45,7 +75,7 @@
 }
 .hija2{
     background-color: rgb(14, 68, 131);
-    
+    flex-grow: 1;
 }
 .hija3{
     background-color: rgb(59, 194, 66);
